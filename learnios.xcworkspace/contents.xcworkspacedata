@@ -4,4 +4,7 @@
    <FileRef
       location = "group:Oc2Swift/Oc2Swift.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>
