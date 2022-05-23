@@ -1,7 +1,7 @@
 workspace 'learnios'
-xcodeproj 'Oc2Swift/Oc2Swift.xcodeproj'
+project 'Oc2Swift/Oc2Swift.xcodeproj'
 
 target :Oc2Swift do
-    pod 'Flutter', :podspec => '../learnflutter/..framework/Flutter/Debug/Flutter.podspec'
+    pod 'Flutter', :podspec => 'Oc2Swift/Flutter/Debug/Flutter.podspec'
 end
 

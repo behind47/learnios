@@ -2,15 +2,15 @@ PODS:
   - Flutter (3.0.0)
 
 DEPENDENCIES:
-  - Flutter (from `../learnflutter/..framework/Flutter/Debug/Flutter.podspec`)
+  - Flutter (from `Oc2Swift/Flutter/Debug/Flutter.podspec`)
 
 EXTERNAL SOURCES:
   Flutter:
-    :podspec: "../learnflutter/..framework/Flutter/Debug/Flutter.podspec"
+    :podspec: Oc2Swift/Flutter/Debug/Flutter.podspec
 
 SPEC CHECKSUMS:
   Flutter: 100e95d4dd7526c7e276cafac9df66d7a2021ca2
 
-PODFILE CHECKSUM: 51164727300847e1575902ed53b7b06d91d202a6
+PODFILE CHECKSUM: b60499f447b6ff730b470930153bf4c3b71b2365
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.3

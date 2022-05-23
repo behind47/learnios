@@ -20,11 +20,11 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		C11EAEC01E68D769BC95302C2A805BBD /* Pods-Oc2Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D4BC92C0D07EB480DD6623EAD7A07 /* Pods-Oc2Swift-dummy.m */; };
+		DC691A1C4ECFE22DE214ABFDACB34BF1 /* Pods-Oc2Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D4BC92C0D07EB480DD6623EAD7A07 /* Pods-Oc2Swift-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		34B19250EA2A5B570ADA215225FDA1A7 /* PBXContainerItemProxy */ = {
+		17C8E90A27152E81DE16567FEF4D72E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -41,7 +41,7 @@
 		344F1AFFF74845FF367F7F15B4A0922B /* Pods-Oc2Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Oc2Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		3FF4D8F1DD4D86A202B1584F946D4E55 /* Pods-Oc2Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Oc2Swift-acknowledgements.plist"; sourceTree = "<group>"; };
 		409BC37899608F9AC48DD207FA08CE47 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
-		6C4F9D87BD4D3A2B47042458C948C98F /* libPods-Oc2Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Oc2Swift.a"; path = "libPods-Oc2Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4F9D87BD4D3A2B47042458C948C98F /* Pods-Oc2Swift */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Oc2Swift"; path = "libPods-Oc2Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B1055F88F9C5455D84E7C01E998F40D /* Flutter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Flutter-xcframeworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CE49A97616F65F2D963C71CA759C8EF7 /* Flutter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Flutter.xcframework; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DFCF1DB6D6DF8ABFD53B352114AA9578 /* Frameworks */ = {
+		ECB96C5A1586C979B4A17497B4A8B1F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -89,6 +89,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7BCC01F4D999E79B276BA37311445791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C4F9D87BD4D3A2B47042458C948C98F /* Pods-Oc2Swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		A4E02D04CF4F0D056351B124EE9911F6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +132,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				A4E02D04CF4F0D056351B124EE9911F6 /* Pods */,
-				F73E74B42EAE0B1966EDECE0179797B6 /* Products */,
+				7BCC01F4D999E79B276BA37311445791 /* Products */,
 				5578B6DD7BC68B1ED3BCE6632507DFF6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -136,18 +144,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F73E74B42EAE0B1966EDECE0179797B6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6C4F9D87BD4D3A2B47042458C948C98F /* libPods-Oc2Swift.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		809066AAEA32E4F616442999BF4B99F6 /* Headers */ = {
+		FC3168E61E0BC07945CF7DCEA0071AAA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -159,20 +159,20 @@
 /* Begin PBXNativeTarget section */
 		3E308D68C48A502D56E5AEE4225AC8A1 /* Pods-Oc2Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2E2B87F59430DDB499ADE2503BA90E9 /* Build configuration list for PBXNativeTarget "Pods-Oc2Swift" */;
+			buildConfigurationList = A7BB62C235D1516C95CB09C4EB7F1173 /* Build configuration list for PBXNativeTarget "Pods-Oc2Swift" */;
 			buildPhases = (
-				809066AAEA32E4F616442999BF4B99F6 /* Headers */,
-				83503BA5B24D3FCF562574C4CB0C0F13 /* Sources */,
-				DFCF1DB6D6DF8ABFD53B352114AA9578 /* Frameworks */,
+				FC3168E61E0BC07945CF7DCEA0071AAA /* Headers */,
+				8745EAB6575D8777BA8C452264693CB1 /* Sources */,
+				ECB96C5A1586C979B4A17497B4A8B1F8 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				926809E39989464FB287DC972E36A916 /* PBXTargetDependency */,
+				143A0353319FCDAB6CF60E523584F5AF /* PBXTargetDependency */,
 			);
 			name = "Pods-Oc2Swift";
 			productName = "Pods-Oc2Swift";
-			productReference = 6C4F9D87BD4D3A2B47042458C948C98F /* libPods-Oc2Swift.a */;
+			productReference = 6C4F9D87BD4D3A2B47042458C948C98F /* Pods-Oc2Swift */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -189,11 +189,11 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F73E74B42EAE0B1966EDECE0179797B6 /* Products */;
+			productRefGroup = 7BCC01F4D999E79B276BA37311445791 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -224,22 +224,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		83503BA5B24D3FCF562574C4CB0C0F13 /* Sources */ = {
+		8745EAB6575D8777BA8C452264693CB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C11EAEC01E68D769BC95302C2A805BBD /* Pods-Oc2Swift-dummy.m in Sources */,
+				DC691A1C4ECFE22DE214ABFDACB34BF1 /* Pods-Oc2Swift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		926809E39989464FB287DC972E36A916 /* PBXTargetDependency */ = {
+		143A0353319FCDAB6CF60E523584F5AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Flutter;
 			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
-			targetProxy = 34B19250EA2A5B570ADA215225FDA1A7 /* PBXContainerItemProxy */;
+			targetProxy = 17C8E90A27152E81DE16567FEF4D72E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -261,29 +261,7 @@
 			};
 			name = Release;
 		};
-		4E09DBC428836920FF7997BF56E9AD01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EC4E0E9ED7931F85D6359D4E8CB16B3 /* Pods-Oc2Swift.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		827BCD1AD7A2BFF6606CA93034CCE244 /* Debug */ = {
+		7C3931A8C80B6E9B7AC2FDE09C00EEEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 344F1AFFF74845FF367F7F15B4A0922B /* Pods-Oc2Swift.debug.xcconfig */;
 			buildSettings = {
@@ -448,6 +426,28 @@
 			};
 			name = Debug;
 		};
+		EC0F6E26A3468A7C1D141B2B8C4B6DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC4E0E9ED7931F85D6359D4E8CB16B3 /* Pods-Oc2Swift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -469,11 +469,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2E2B87F59430DDB499ADE2503BA90E9 /* Build configuration list for PBXNativeTarget "Pods-Oc2Swift" */ = {
+		A7BB62C235D1516C95CB09C4EB7F1173 /* Build configuration list for PBXNativeTarget "Pods-Oc2Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				827BCD1AD7A2BFF6606CA93034CCE244 /* Debug */,
-				4E09DBC428836920FF7997BF56E9AD01 /* Release */,
+				7C3931A8C80B6E9B7AC2FDE09C00EEEB /* Debug */,
+				EC0F6E26A3468A7C1D141B2B8C4B6DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
