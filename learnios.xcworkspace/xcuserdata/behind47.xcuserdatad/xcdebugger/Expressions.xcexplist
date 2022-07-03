@@ -3,6 +3,22 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "static SwiftBridgePlugin.register(with:):SwiftBridgePlugin.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "registrar.messenger()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[GeneratedPluginRegistrant registerWithRegistry:]:GeneratedPluginRegistrant.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[registry registrarForPlugin:@&quot;BridgePlugin&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "ViewController.tableView(_:didSelectRowAt:):ViewController.swift">
          <PersistentStrings>
             <PersistentString
